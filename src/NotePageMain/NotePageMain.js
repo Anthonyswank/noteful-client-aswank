@@ -16,7 +16,7 @@ class NotePageMain extends React.Component {
   static contextType = NotefulContext;
   
   handleDeleteNote = () => {
-    this.props.history.push(`/`)
+    this.props.history.push('/')
   }
 
   render() {
